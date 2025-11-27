@@ -23,22 +23,20 @@ The pipeline includes:
 
 
 NYC-crime-analysis/
-│
-├── data/ # Empty (large datasets excluded)
-│ └── README.md 
-│
-├── processed/ 
-│
+├── data/                # Raw datasets (not committed)
+│   └── README.md        # How to download data
+├── processed/           # Cleaned/engineered datasets (ignored)
 ├── notebooks/
-│ ├── 1.nyc_datacleaning.ipynb
-│ ├── 2.EDA.ipynb
-│ └── 3.model.ipynb
-│
+│   ├── 1_datacleaning.ipynb     # Cleaning + ETL
+│   ├── 2_eda.ipynb              # Exploratory analysis + visuals
+│   └── 3_modeling.ipynb         # ML models (supervised + unsupervised)
 ├── src/
-│ └── allmodels.py
-│
-├── README.md
-└── .gitignore
+│   ├── allmodels.py             # Model pipelines + evaluation
+│   └── utils/                   # Helper functions (optional expansion)
+├── visuals/                     # Exported plots and PNGs
+├── requirements.txt
+├── LICENSE
+└── README.md
 
 Large datasets are intentionally excluded due to GitHub’s 100 MB file limit.
 
