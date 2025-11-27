@@ -199,6 +199,6 @@ All modeling steps are implemented in `3.model.ipynb` and `src/allmodels.py`.
 ---
 
 ## 12. Contributors
-- **Aash Jatin Shah (Lead)**  
+- **Aash Jatin Shah**  
 - **Viraj Tapkir**  
 - **Shail Shah**
