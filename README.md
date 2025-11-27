@@ -20,23 +20,20 @@ The pipeline includes:
 ---
 
 ## 2. Repository Structure
-
-
+```text
 NYC-crime-analysis/
-├── data/                # Raw datasets (not committed)
-│   └── README.md        # How to download data
-├── processed/           # Cleaned/engineered datasets (ignored)
+├── data/
+├── processed/
 ├── notebooks/
-│   ├── 1_datacleaning.ipynb     # Cleaning + ETL
-│   ├── 2_eda.ipynb              # Exploratory analysis + visuals
-│   └── 3_modeling.ipynb         # ML models (supervised + unsupervised)
+│   ├── 1_datacleaning.ipynb
+│   ├── 2_eda.ipynb
+│   └── 3_modeling.ipynb
 ├── src/
-│   ├── allmodels.py             # Model pipelines + evaluation
-│   └── utils/                   # Helper functions (optional expansion)
-├── visuals/                     # Exported plots and PNGs
-├── requirements.txt
-├── LICENSE
+│   └── allmodels.py
+├── visuals/
 └── README.md
+```
+
 
 Large datasets are intentionally excluded due to GitHub’s 100 MB file limit.
 
